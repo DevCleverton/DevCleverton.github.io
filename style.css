@@ -15,11 +15,11 @@ body {
   justify-content:center;
   min-height: 100vh;
   font-family: 'Cyber', sans-serif;
-  background: linear-gradient(80deg, #f5ed00 50%, #e6de00 70%), #fff700;
+  background: linear-gradient(100deg, #f5ed00 50%, #e6de00 70%), #fff700;
 }
 
 body .cybr-btn + .cybr-btn {
-  margin-top: 12;
+  margin-top: 10;
 }
 
 .cybr-btn {
@@ -27,7 +27,7 @@ body .cybr-btn + .cybr-btn {
   --shadow-primary: hsl(var(--shadow-primary-hue), 10%, 50%);
   --primary-hue: 0;
   --primary-lightness: 50;
-  --color: hsl(0, 0%, 100%);
+  --color: hsla(0, 7%, 5%, 0.884);
   --font-size: 26px;
   --shadow-primary-hue: 180;
   --label-size: 9px;
@@ -53,11 +53,11 @@ body .cybr-btn + .cybr-btn {
   letter-spacing: 2px;
   position: relative;
   font-weight: 700;
-  border: 0;
-  min-width: 300px;
+  border: 10;
+  min-width: 30px;
   height: 75px;
   line-height: 75px;
-  transition: background 0.2s;
+  transition: background 0.5s;
 }
 
 .cybr-btn:hover {
@@ -264,7 +264,7 @@ body .cybr-btn + .cybr-btn {
             clip-path: var(--clip-six);
     transform: translate(calc(var(--shimmy-distance) * 1%));
   }
-  50% {
+  100% {
     -webkit-clip-path: var(--clip-six);
             clip-path: var(--clip-six);
     transform: translate(0, 0);
